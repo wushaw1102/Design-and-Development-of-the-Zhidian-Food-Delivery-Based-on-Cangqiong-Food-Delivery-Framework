@@ -180,7 +180,8 @@ sequenceDiagram
 .
 ├── README.md                    ← 英文主版
 ├── README.zh-CN.md              ← 你正在看的这一份
-├── LICENSE
+├── LICENSE                      MIT（本项目）
+├── THIRD-PARTY-NOTICES.md       所依赖的上游项目与许可
 ├── backend/                     Spring Boot 服务端（Maven 多模块）
 │   ├── pom.xml
 │   ├── sky-common/              常量、异常、统一返回体、工具类
@@ -252,8 +253,8 @@ sequenceDiagram
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/wushaw1102/ZhiDianTakeout.git
-cd ZhiDianTakeout
+git clone https://github.com/wushaw1102/Design-and-Development-of-the-Zhidian-Food-Delivery-Based-on-Cangqiong-Food-Delivery-Framework.git
+cd Design-and-Development-of-the-Zhidian-Food-Delivery-Based-on-Cangqiong-Food-Delivery-Framework
 ```
 
 ### 2. 建库并导入数据
@@ -577,4 +578,4 @@ erDiagram
 
 ## 📄 许可证
 
-[MIT](LICENSE) © 2026 wushaw1102。第三方声明附在许可证文件末尾。
+[MIT](LICENSE) © 2026 wushaw1102。上游项目与许可条款列在 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md)。

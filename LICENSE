@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Third-party notices
-
-* admin-web/ is derived from vue-typescript-admin-template by Chong Guo,
-  distributed under the MIT license. The original license text is kept at
-  admin-web/LICENSE.
-* backend/ follows the sky-take-out (苍穹外卖) reference architecture, a
-  teaching-oriented Spring Boot project. See the Acknowledgements section of
-  the README for details.

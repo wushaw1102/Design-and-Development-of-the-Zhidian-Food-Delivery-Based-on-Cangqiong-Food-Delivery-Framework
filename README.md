@@ -185,7 +185,8 @@ sequenceDiagram
 .
 ├── README.md                    ← you are here (English)
 ├── README.zh-CN.md              ← 简体中文版
-├── LICENSE
+├── LICENSE                      MIT, ours
+├── THIRD-PARTY-NOTICES.md       upstream projects this one builds on
 ├── backend/                     Spring Boot service (Maven multi-module)
 │   ├── pom.xml
 │   ├── sky-common/              constants, exceptions, result envelope, utils
@@ -257,8 +258,8 @@ You do not need all three parts to look at the project. Pick the row you care ab
 ### 1. Clone
 
 ```bash
-git clone https://github.com/wushaw1102/ZhiDianTakeout.git
-cd ZhiDianTakeout
+git clone https://github.com/wushaw1102/Design-and-Development-of-the-Zhidian-Food-Delivery-Based-on-Cangqiong-Food-Delivery-Framework.git
+cd Design-and-Development-of-the-Zhidian-Food-Delivery-Based-on-Cangqiong-Food-Delivery-Framework
 ```
 
 ### 2. Create the database
@@ -608,4 +609,5 @@ first roadmap item.
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026 wushaw1102. Third-party notices are included at the end of the license file.
+[MIT](LICENSE) © 2026 wushaw1102. Upstream credits and their license terms are listed in
+[`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
