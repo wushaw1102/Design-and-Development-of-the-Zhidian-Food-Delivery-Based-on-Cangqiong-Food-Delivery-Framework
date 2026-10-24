@@ -1,0 +1,24 @@
+# Normalise text files so Windows checkouts behave like Linux ones.
+* text=auto eol=lf
+
+*.java    text
+*.xml     text
+*.yml     text
+*.yaml    text
+*.properties text
+*.json    text
+*.md      text
+*.ts      text
+*.vue     text
+*.js      text
+*.wxml    text
+*.wxss    text
+*.sql     text
+
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.docx    binary
+*.pdf     binary
