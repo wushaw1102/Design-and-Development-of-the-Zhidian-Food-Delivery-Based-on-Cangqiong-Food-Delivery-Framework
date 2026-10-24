@@ -1,0 +1,23 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: ${SKY_DB_HOST:localhost}
+    port: ${SKY_DB_PORT:3306}
+    database: ${SKY_DB_NAME:sky_take_out}
+    username: ${SKY_DB_USER:root}
+    password: ${SKY_DB_PASSWORD:change-me}
+  alioss:
+    # Fill these in (or export the environment variables) before using image upload.
+    endpoint: ${SKY_OSS_ENDPOINT:oss-cn-beijing.aliyuncs.com}
+    access-key-id: ${SKY_OSS_ACCESS_KEY_ID:}
+    access-key-secret: ${SKY_OSS_ACCESS_KEY_SECRET:}
+    bucket-name: ${SKY_OSS_BUCKET:}
+  redis:
+    host: ${SKY_REDIS_HOST:localhost}
+    port: ${SKY_REDIS_PORT:6379}
+    password: ${SKY_REDIS_PASSWORD:}
+    database: ${SKY_REDIS_DATABASE:10}
+  wechat:
+    # Mini program credentials: WeChat MP console -> 开发管理 -> 开发设置.
+    appid: ${SKY_WECHAT_APPID:}
+    secret: ${SKY_WECHAT_SECRET:}

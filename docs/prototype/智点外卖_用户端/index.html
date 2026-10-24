@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智点外卖 用户端</title>
+    <link rel="stylesheet" href="data/styles.css">
+    <script src="data/document.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4cd0a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f4cd0a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .feature {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            background-color: #008CBA; /* 蓝色按钮 */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .button:hover {
+            background-color: #005f73; /* 悬停效果 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>智点外卖 用户端</h1>
+        <nav>
+            <ul>
+                <li><a href="首页_1.html">首页</a></li>
+                <li><a href="个人中心.html">个人中心</a></li>
+                <li><a href="历史订单.html">历史订单</a></li>
+                <li><a href="待付款.html">待付款</a></li>
+                <li><a href="已接单.html">已接单</a></li>
+                <li><a href="已完成.html">已完成</a></li>
+                <li><a href="已取消.html">已取消</a></li>
+                <li><a href="地址管理.html">地址管理</a></li>
+                <li><a href="提交订单.html">提交订单</a></li>
+                <li><a href="支付页面.html">支付页面</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>欢迎使用智点外卖</h2>
+        <p>请从上面的菜单选择您需要的功能。</p>
+        <div class="feature">
+            <h3>最新活动</h3>
+            <p>参与我们的优惠活动，享受更多折扣！</p>
+        </div>
+        <div class="feature">
+            <h3>用户反馈</h3>
+            <p>我们重视您的意见，请告诉我们您的想法！</p>
+        </div>
+        <div>
+            <button class="button" onclick="window.location.href='提交订单.html'">提交订单</button>
+            <button class="button" onclick="window.location.href='支付页面.html'">支付页面</button>
+            <button class="button" onclick="window.location.href='地址管理.html'">地址管理</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 智点外卖. 保留所有权利.</p>
+    </footer>
+</body>
+</html>

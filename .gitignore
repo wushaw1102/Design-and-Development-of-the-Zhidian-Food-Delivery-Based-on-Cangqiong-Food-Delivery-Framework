@@ -1,0 +1,41 @@
+# ---- Node / Vue ----
+node_modules/
+dist/
+.npm/
+npm-debug.log*
+yarn-error.log*
+.eslintcache
+
+# ---- Java / Maven ----
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+logs/
+hs_err_pid*
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local runtime artifacts ----
+outputs/
+_archive/
+*.log
+
+# ---- Secrets ----
+# Never commit real credentials. application-dev.yml reads every secret from the
+# environment, and the committed config.properties only holds a placeholder key.
+.env.local
+.env.*.local
+
+# ---- WeChat DevTools per-user files ----
+miniprogram/project.private.config.json
